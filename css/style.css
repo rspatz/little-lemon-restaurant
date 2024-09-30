@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 70%;
+  margin: 0 auto;
+}
+
+img {
+  height: 50%;
+  width: 50%;
+}
+
+/* Sign-Up Form */
+form div {
+  margin: 1rem 0;
+}
+
+form input {
+  border: 2px blue;
+}
+
+input:focus:invalid {
+  border: 2px #660000;
+}
