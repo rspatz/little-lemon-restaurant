@@ -25,3 +25,38 @@ form input {
 input:focus:invalid {
   border: 2px #660000;
 }
+
+/* Flex Charts */
+.row {
+  display: flex;
+  align-items: stretch;
+}
+
+.row .label {
+  flex: 0 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row .container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.row .dish {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pasta {
+  background-color: #ee9972;
+}
+
+.pizza {
+  background-color: #f4ce14;
+}
+
+.salad {
+  background-color: #1fdc14;
+}
